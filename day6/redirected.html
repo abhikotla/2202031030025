@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <style>
+            .body{
+               /* background-color: cadetblue;*/
+               background: url('img3.jpg');
+              
+               background-size: 1400px;
+               background-repeat: no-repeat;
+               background-size: cover;
+            }
+        </style>
+        <title>
+            Form
+        </title>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Jagdish">
+        <meta name="Description" content="Registration form using bootstrap">
+        <meta name="viewport" content="width-device-width, initial-scale 1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body class="body">
+        <form class="row g-3" style="margin: 30px;" action="redirected1.html" >
+            <div>
+               <h3> <p class="text-center" style="text-decoration-color: cadetblue;">
+                   Log In
+                </p></h3>
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email-Id</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Your Registered Email">                
+            </div>
+            <div class="col-md-6">
+                <label for="pass" class="form-label">Password</label>
+                <input type="password" class="form-control" id="pass" placeholder="Enter Your Password">                
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary" id="submit">Log in</button>
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="btn btn-danger">Reset</button>
+            </div>
+            <div class="col-md-6">
+                <a class="btn btn-primary" href="bootstrapform.html" role="button">Sign in</a>
+            </div>
+        </form>
+    </body>
+</html>
