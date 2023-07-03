@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            DATE() CALLING
+        </title>
+        <meta name="Author" content="Jagdish">
+    </head>
+    <body>
+        <h2>
+            Click "try it" button to display text
+        </h2>
+        <button id="demo">try it</button>
+        <p id="demo1"></p>
+        <script>
+            document.getElementById("demo").onclick = displayDate;
+            function  displayDate(){
+                document.getElementById("demo1").innerHTML = Date();
+            }
+        </script>
+    </body>
+</html>

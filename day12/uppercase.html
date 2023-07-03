@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            UPPERCASE
+        </title>
+        <meta name="Author" content="Jagdish">
+    </head>
+    <body>
+        ENTER NAME<input type="text" id="name" onchange="uppercase()">
+        <script>
+            function uppercase(){
+                const a = document.getElementById("name");
+                a.value = a.value.toUpperCase();
+            }
+        </script>
+    </body>
+</html>

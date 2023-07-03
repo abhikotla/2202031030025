@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            TEXT CHANGES
+        </title>
+        <meta name="Author" content="Jagdish">
+    </head>
+    <body>
+        <div onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color: bisque;width:90px;height:20px;padding:40px;">
+        CLICK HERE</div>
+        <script>
+            function mDown(obj){
+                obj.style.backgroundColor="aquamarine";
+                obj.innerHTML = "RELEASE ME";
+            }
+            function mUp(obj){
+                obj.style.backgroundColor="bisque";
+                obj.innerHTML = "ARRIGATO GOZAIMASETA";
+            }
+        </script>
+    </body>
+</html>
